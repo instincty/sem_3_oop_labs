@@ -1,0 +1,15 @@
+C:\Users\Роман\Desktop\oop_lab_2\oop_lab_2\bin\Debug\net6.0\oop_lab_2.exe
+C:\Users\Роман\Desktop\oop_lab_2\oop_lab_2\bin\Debug\net6.0\oop_lab_2.deps.json
+C:\Users\Роман\Desktop\oop_lab_2\oop_lab_2\bin\Debug\net6.0\oop_lab_2.runtimeconfig.json
+C:\Users\Роман\Desktop\oop_lab_2\oop_lab_2\bin\Debug\net6.0\oop_lab_2.dll
+C:\Users\Роман\Desktop\oop_lab_2\oop_lab_2\bin\Debug\net6.0\oop_lab_2.pdb
+C:\Users\Роман\Desktop\oop_lab_2\oop_lab_2\obj\Debug\net6.0\oop_lab_2.csproj.AssemblyReference.cache
+C:\Users\Роман\Desktop\oop_lab_2\oop_lab_2\obj\Debug\net6.0\oop_lab_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Роман\Desktop\oop_lab_2\oop_lab_2\obj\Debug\net6.0\oop_lab_2.AssemblyInfoInputs.cache
+C:\Users\Роман\Desktop\oop_lab_2\oop_lab_2\obj\Debug\net6.0\oop_lab_2.AssemblyInfo.cs
+C:\Users\Роман\Desktop\oop_lab_2\oop_lab_2\obj\Debug\net6.0\oop_lab_2.csproj.CoreCompileInputs.cache
+C:\Users\Роман\Desktop\oop_lab_2\oop_lab_2\obj\Debug\net6.0\oop_lab_2.dll
+C:\Users\Роман\Desktop\oop_lab_2\oop_lab_2\obj\Debug\net6.0\refint\oop_lab_2.dll
+C:\Users\Роман\Desktop\oop_lab_2\oop_lab_2\obj\Debug\net6.0\oop_lab_2.pdb
+C:\Users\Роман\Desktop\oop_lab_2\oop_lab_2\obj\Debug\net6.0\oop_lab_2.genruntimeconfig.cache
+C:\Users\Роман\Desktop\oop_lab_2\oop_lab_2\obj\Debug\net6.0\ref\oop_lab_2.dll
