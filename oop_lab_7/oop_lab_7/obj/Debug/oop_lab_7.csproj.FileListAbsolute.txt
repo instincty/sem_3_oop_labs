@@ -6,3 +6,11 @@ C:\Users\Роман\Desktop\oop_lab_7\oop_lab_7\obj\Debug\oop_lab_7.csproj.Sugge
 C:\Users\Роман\Desktop\oop_lab_7\oop_lab_7\obj\Debug\oop_lab_7.csproj.CoreCompileInputs.cache
 C:\Users\Роман\Desktop\oop_lab_7\oop_lab_7\obj\Debug\oop_lab_7.exe
 C:\Users\Роман\Desktop\oop_lab_7\oop_lab_7\obj\Debug\oop_lab_7.pdb
+C:\Всё\ВолГУ\3 семестр\Объектно-ориентированное программирование\oop_lab_7\oop_lab_7\bin\Debug\oop_lab_7.exe.config
+C:\Всё\ВолГУ\3 семестр\Объектно-ориентированное программирование\oop_lab_7\oop_lab_7\bin\Debug\oop_lab_7.exe
+C:\Всё\ВолГУ\3 семестр\Объектно-ориентированное программирование\oop_lab_7\oop_lab_7\bin\Debug\oop_lab_7.pdb
+C:\Всё\ВолГУ\3 семестр\Объектно-ориентированное программирование\oop_lab_7\oop_lab_7\obj\Debug\oop_lab_7.csproj.AssemblyReference.cache
+C:\Всё\ВолГУ\3 семестр\Объектно-ориентированное программирование\oop_lab_7\oop_lab_7\obj\Debug\oop_lab_7.csproj.SuggestedBindingRedirects.cache
+C:\Всё\ВолГУ\3 семестр\Объектно-ориентированное программирование\oop_lab_7\oop_lab_7\obj\Debug\oop_lab_7.csproj.CoreCompileInputs.cache
+C:\Всё\ВолГУ\3 семестр\Объектно-ориентированное программирование\oop_lab_7\oop_lab_7\obj\Debug\oop_lab_7.exe
+C:\Всё\ВолГУ\3 семестр\Объектно-ориентированное программирование\oop_lab_7\oop_lab_7\obj\Debug\oop_lab_7.pdb

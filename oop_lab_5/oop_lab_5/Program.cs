@@ -4,6 +4,50 @@ using System.IO;
 using System.Linq;
 using System.Xml.Linq;
 
+class Institute
+{
+    public string Name { get; set; }
+    public List<Group> Groups { get; } = new List<Group>();
+
+    public Institute(string name)
+    {
+        Name = name;
+    }
+
+    public void AddGroup(Group group)
+    {
+        Groups.Add(group);
+    }
+}
+
+class Group
+{
+    public string Name { get; set; }
+    public List<Student> Students { get; } = new List<Student>();
+
+    public Group(string name)
+    {
+        Name = name;
+    }
+
+    public void AddStudent(Student student)
+    {
+        Students.Add(student);
+    }
+}
+
+class Student
+{
+    public string Name { get; set; }
+    public double Grade { get; set; }
+
+    public Student(string name, double grade)
+    {
+        Name = name;
+        Grade = grade;
+    }
+}
+
 class Program
 {
         static List<Institute> institutes = new List<Institute>();
@@ -328,7 +372,7 @@ class Program
 
         Console.WriteLine("Студент не найден.");
     }
-
+    
     static void SaveDataToFile()
     {
         Console.Write("Введите имя файла для сохранения данных: ");
@@ -348,13 +392,13 @@ class Program
                 {
                     if (group.Students.All(student => student.Grade > 2))
                     {
-                        writer.WriteLine($"  Группа: {group.Name}");
+                        writer.WriteLine($"-Группа: {group.Name}");
 
                         foreach (var student in group.Students)
                         {
-                            writer.WriteLine($"    Студент: {student.Name}, Оценка: {student.Grade}");
+                            writer.WriteLine($"--Студент: {student.Name}, Оценка: {student.Grade}");
 
-                            if (student.Grade >= 5) // Проверка, что студент отличник
+                            if (student.Grade >= 5)
                             {
                                 honorStudentsCount++;
                             }
@@ -362,7 +406,6 @@ class Program
                     }
                 }
 
-                // Обновление значений maxHonorStudents и instituteWithMaxHonorStudents
                 if (honorStudentsCount > maxHonorStudents)
                 {
                     maxHonorStudents = honorStudentsCount;
@@ -373,48 +416,5 @@ class Program
             writer.WriteLine($"Институт с наибольшим количеством отличников: {instituteWithMaxHonorStudents}. Количество отличников: {maxHonorStudents}");
         }
         Console.WriteLine($"Данные сохранены в файл {fileName}");
-    }
-}
-class Institute
-{
-    public string Name { get; set; }
-    public List<Group> Groups { get; } = new List<Group>();
-
-    public Institute(string name)
-    {
-        Name = name;
-    }
-
-    public void AddGroup(Group group)
-    {
-        Groups.Add(group);
-    }
-}
-
-class Group
-{
-    public string Name { get; set; }
-    public List<Student> Students { get; } = new List<Student>();
-
-    public Group(string name)
-    {
-        Name = name;
-    }
-
-    public void AddStudent(Student student)
-    {
-        Students.Add(student);
-    }
-}
-
-class Student
-{
-    public string Name { get; set; }
-    public double Grade { get; set; }
-
-    public Student(string name, double grade)
-    {
-        Name = name;
-        Grade = grade;
     }
 }

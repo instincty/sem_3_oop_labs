@@ -123,8 +123,7 @@ class Program
 
         MethodDelegate del = e1.ObjectStatus;
         del += e1.Earn;
-        del += () => { Console.WriteLine("Custom Method"); };
-
+        
         del.Invoke();
     }
 }
